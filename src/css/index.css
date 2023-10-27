@@ -1,7 +1,29 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 :root {
-    --clr-primary: #59ccc7;
-    --clr-secondary: #faabc1;
+    --clr-primary-1: #E9FDFC;
+    --clr-primary-2: #c9f1ef;
+    --clr-primary-3: #a7e5e2;
+    --clr-primary-4: #83d8d4;
+    --clr-primary-5: #59ccc7;
+    --clr-primary-6: #23A29E;
+    --clr-primary-7: #007A77;
+    --clr-primary-8: #005452;
+    --clr-primary-9: #003030;
+    --clr-secondary-1: #fff7f9;
+    --clr-secondary-2: #ffe4eb;
+    --clr-secondary-3: #fed1dd;
+    --clr-secondary-4: #fcbecf;
+    --clr-secondary-5: #faabc1;
+    --clr-secondary-6: #CD8197;
+    --clr-secondary-7: #A1596F;
+    --clr-secondary-8: #76334A;
+    --clr-secondary-9: #4E0C27;
+
     --clr-gray: #575654;
+    --clr-collective-1: #618CE2;
+
+    --transition: all 0.3s linear;
 }
 
 * {
@@ -12,7 +34,7 @@
 .main {
     width: 100vw;
     height: 100vh;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-primary-5);
 }
 
 .main-icon {
@@ -24,4 +46,32 @@
 .main-icon img {
     width: 30rem;
     height: 30rem;
+}
+
+.main-links {
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.link-btn {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.link-path {
+    display: block;
+    text-decoration: none;
+    color: var(--clr-primary-1);
+}
+
+.link-btn:hover .link-path {
+    color: var(--clr-primary-8);
+    transition: var(--transition);
+    transform: scale(1.2);  
+}
+
+.link-icon {
+    font-size: 3rem;
 }
