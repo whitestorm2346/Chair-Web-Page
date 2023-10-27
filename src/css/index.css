@@ -1,0 +1,27 @@
+:root {
+    --clr-primary: #59ccc7;
+    --clr-secondary: #faabc1;
+    --clr-gray: #575654;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clr-primary);
+}
+
+.main-icon {
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-icon img {
+    width: 30rem;
+    height: 30rem;
+}
