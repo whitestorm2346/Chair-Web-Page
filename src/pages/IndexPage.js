@@ -3,14 +3,12 @@ import { Link } from "react-router-dom";
 
 import '../css/index.css';
 
-import chair_blue_bg from './images/chair-blue-bg.JPG';
-
 function IndexPage(){
     return(
         <>
         <section class="main">
             <div class="main-icon">
-                <img src={chair_blue_bg} alt="chair" />
+                <img src={require('../images/chair-blue-bg.JPG')} alt="chair" />
             </div>
             <ul class="main-links">
                 <li class="link-btn">
