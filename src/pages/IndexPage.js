@@ -12,12 +12,12 @@ function IndexPage(){
             </div>
             <ul class="main-links">
                 <li class="link-btn">
-                    <Link to={""} class="link-path">
+                    <Link to={"https://www.twitch.tv/chairyiz"} class="link-path">
                         <i class="link-icon fa-brands fa-twitch"></i>
                     </Link>
                 </li>
                 <li class="link-btn">
-                    <Link to={""} class="link-path">
+                    <Link to={"https://instagram.com/_y_i_z_?igshid=OGQ5ZDc2ODk2ZA=="} class="link-path">
                         <i class="link-icon fa-brands fa-instagram"></i>
                     </Link>
                 </li>
@@ -27,7 +27,7 @@ function IndexPage(){
                     </Link>
                 </li>
                 <li class="link-btn">
-                    <Link to={""} class="link-path">
+                    <Link to={"https://youtube.com/@yochair?feature=shared"} class="link-path">
                         <i class="link-icon fa-brands fa-youtube"></i>
                     </Link>
                 </li>
