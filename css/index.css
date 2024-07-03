@@ -96,3 +96,7 @@ section {
 .link-icon {
     font-size: 3rem;
 }
+
+.link-btn:hover .link-path .link-icon {
+    filter:drop-shadow(0 0 4px #fff)
+}
