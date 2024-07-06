@@ -18,13 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const centerY = containerHeight / 2 + imageHeight / 8;
     
         const angleStep = Math.PI / (links.length - 1);
+
+        const mainSection = document.querySelector('.main')
+        mainSection.style.height = `${containerHeight + imgContainerWidth / 2}px`;
     
         links.forEach((link, index) => {
             const angle = Math.PI + index * angleStep; 
-            // console.log(angle)
             const x = centerX + radius * Math.cos(angle);
             const y = centerY - radius * Math.sin(angle);
-            // console.log(x, y)
 
             link.style.left = `${x}px`;
             link.style.top  = `${y}px`;
