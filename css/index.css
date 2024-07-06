@@ -52,6 +52,16 @@ body {
     background-image: var(--clr-gradient-bg-1);
 }
 
+header {
+    background-color: var(--clr-primary-7);
+}
+
+.inner-navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
 .main {
     /* height: fit-content; */
 }
@@ -76,7 +86,7 @@ body {
 
 .character {
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     height: auto;
 }
 
@@ -197,7 +207,7 @@ body {
 
 footer {
     padding: 3rem 1rem;
-    background-color: var(--clr-primary-8);
+    background-color: var(--clr-primary-9);
 }
 
 .copyright {
