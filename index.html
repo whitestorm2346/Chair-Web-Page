@@ -16,6 +16,15 @@
   </head>
   <body>
     <header>
+      <input type="checkbox" id="toggler1" />
+      <label for="toggler1" class="menu-btn menu-btn-1">
+        <div class="hamburger-container">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+
       <ul class="inner-navbar">
         <li>
           <a href="#about">關於我<span class="underline"></span></a>
@@ -34,6 +43,24 @@
         </li>
       </ul>
     </header>
+
+    <ul class="popup-navbar hide-menu">
+      <li>
+        <a href="#about">關於我<span class="underline"></span></a>
+      </li>
+      <li>
+        <a href="#reservation">預約<span class="underline"></span></a>
+      </li>
+      <li>
+        <a href="#products">商品<span class="underline"></span></a>
+      </li>
+      <li>
+        <a href="#cooperation">合作<span class="underline"></span></a>
+      </li>
+      <li>
+        <a href="#donation">贊助<span class="underline"></span></a>
+      </li>
+    </ul>
 
     <section class="main">
       <div class="circular-navbar">
@@ -71,7 +98,7 @@
               target="_blank"
             >
               <div class="link-img">
-                <img src="/images/chair-pink-bg-face-2.JPG" />
+                <img src="/images/chair-pink-bg-face-2.jpg" />
                 <i class="link-icon-small fa-brands fa-instagram"></i>
               </div>
               <span class="link-title">Chair</span>
@@ -139,6 +166,7 @@
       </div>
     </footer>
 
+    <script src="/js/menu.js"></script>
     <script src="/js/circular_navbar.js"></script>
   </body>
 </html>
